@@ -1,0 +1,20 @@
+{
+    "typeExecution":"Transform",
+    "TypeFC":"_WebGuiNode",
+    "input_parameters":{
+        "TemplateName":"",
+        "TemplateParameters":""  
+    },
+    "Properties":{
+        "TemplateName":{
+            "prop":"TemplateName",
+            "init_val":"Text",
+            "type":"App::PropertyString",
+            "Heading":"Parameters",
+            "tooltip":"The name of the template",
+            "current_val":"Template1"
+        }
+    },
+    "WebGui":{
+    }
+}

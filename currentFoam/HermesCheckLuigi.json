@@ -1,0 +1,36 @@
+{ 
+    "workflow":{ 
+        "root":null,
+        "Templates":{ 
+            "importJsonfromfile":{ 
+                "path":"Templates.json"
+            }
+        },
+        "nodeList":[ 
+            "RunOsCommand",
+            "RASProperties"
+        ],
+        "nodes":{ 
+            "RunOsCommand":{ 
+                "Template":{ 
+                    "TypeFC":"RunOsCommand"
+                }
+            },
+            "RASProperties":{ 
+                "typeExecution":"RASProperties",
+                "TypeFC":"_WebGuiNode",
+                "input_parameters":{ 
+                    "formData":"{WebGui.formData}"
+                },
+                "Properties":{ 
+
+                },
+                "WebGui":{ 
+                    "importJsonfromfile":{ 
+                        "path":"WebGui/WebGuiRASProperties.json"
+                    }
+                }
+            }
+        }
+    }
+}

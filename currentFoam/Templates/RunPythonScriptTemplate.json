@@ -1,0 +1,13 @@
+{
+    "typeExecution":"RunPythonScript",
+    "TypeFC":"_WebGuiNode",
+    "input_parameters":{  
+        "ModulePath":"",
+        "MethodName":"",
+        "Parameters":""
+    },
+    "Properties":{
+    },
+    "WebGui":{
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "RunOsCommand":{
+        "importJsonfromfile":{
+            "path":"Templates/RunOsCommandTemplate.json"
+        }
+    },
+    "CopyDirectory":{
+        "importJsonfromfile":{
+            "path":"Templates/CopyDirectoryTemplate.json"
+        }
+    },
+    "RunPythonScript":{
+        "importJsonfromfile":{
+            "path":"Templates/RunPythonScriptTemplate.json"
+        }
+    },
+    "GUI":{
+        "importJsonfromfile":{
+            "path":"Templates/GuiTemplate.json"
+        }
+    },
+    "Transform":{
+        "importJsonfromfile":{
+            "path":"Templates/TransformTemplate.json"
+        }
+    }       
+}
